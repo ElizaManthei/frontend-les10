@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1, h3 {
+    font-family: 'Gochi Hand', cursive;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+p {
+    margin: 8px;
+}
+
+.label-button {
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+
+}
+
+.text-font {
+    font-family:'Roboto Condensed', sans-serif;
+    font-size: 15px;
+}
+
+.s-btn {
+    background-color: #9dc781;
+    padding: 10px 20px;
+    margin-left: -5px;
+    border-radius: 0 8px 8px 0;
+    border-style: none;
+}
+
+.label {
+    font-size: 15px;
+    padding: 10px;
+    margin-right: -5px;
+    border-radius: 8px;
+    width: 300px;
+}
+
+.flag {
+    height: 25px;
+}
+
+.span-class {
+    max-height: 50px;
+    border-bottom: lightgray solid;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content:flex-end;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.info {
+    border-radius: 5px;
+    box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    display: flex;
+    width: 500px;
+    flex-direction: column;
+    padding: 20px;
+    margin: 70px;
+}

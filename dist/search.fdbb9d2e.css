@@ -1,0 +1,84 @@
+@import "https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap";
+* {
+  box-sizing: border-box;
+}
+
+body {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Roboto Condensed, sans-serif;
+  display: flex;
+}
+
+h1, h3 {
+  font-family: Gochi Hand, cursive;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+p {
+  margin: 8px;
+}
+
+.label-button {
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  display: flex;
+}
+
+.text-font {
+  font-family: Roboto Condensed, sans-serif;
+  font-size: 15px;
+}
+
+.s-btn {
+  background-color: #9dc781;
+  border-style: none;
+  border-radius: 0 8px 8px 0;
+  margin-left: -5px;
+  padding: 10px 20px;
+}
+
+.label {
+  width: 300px;
+  border-radius: 8px;
+  margin-right: -5px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.flag {
+  height: 25px;
+}
+
+.span-class {
+  max-height: 50px;
+  border-bottom: solid #d3d3d3;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  align-items: center;
+  column-gap: 10px;
+  display: flex;
+}
+
+.info {
+  width: 500px;
+  border-radius: 5px;
+  flex-direction: column;
+  margin: 70px;
+  padding: 20px;
+  display: flex;
+  box-shadow: .3em .3em 1em #0000004d;
+}
+
+/*# sourceMappingURL=search.fdbb9d2e.css.map */
